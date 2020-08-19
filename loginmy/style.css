@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(background-learner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+.login {
+  height: 50%;
+  width: 50%;
+  box-sizing: border-box;
+  margin-top: 7%;
+  color: rgba(0, 100, 0, 0.644);
+  margin-bottom: 7%;
+}
+.login .white-side {
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+}
+.login .white-side h1 {
+  margin-top: 17px;
+  font-weight: bold;
+}
+
+.fa {
+  font-size: 20px;
+  width: 10%;
+  height: 7%;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin-top: 38px;
+  padding-top: 5px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: rgba(34, 139, 87, 0.616);
+}
+
+.fa-facebook {
+  background-color: #262e9b17;
+  color: rgba(57, 25, 236, 0.856);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.062);
+}
+
+.fa-twitter {
+  background: #262e9b17;
+  color: #2192e9e5;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.062);
+}
+.login .white-side p {
+  margin-top: 60px;
+  color: black;
+}
+.login .white-side a {
+  color: rgb(80, 74, 74);
+}
+.login .white-side a:hover {
+  text-decoration: none;
+  color: rgb(19, 73, 51);
+}
+.login .white-side button {
+  border-radius: 100px;
+  width: 35%;
+  margin: 30px;
+  background-color: #1f7765e7;
+  border-color: #1f7765e7;
+}
+
+.login .white-side button:hover {
+  background-color: white;
+  color: rgba(10, 68, 39, 0.993);
+  opacity: 0.6;
+}
+.login .red-size {
+  background-color: #145a2f31;
+  text-align: center;
+  color: white;
+  border-style: solid;
+  border-color: rgba(12, 70, 55, 0.267);
+}
+.login .red-size h1 {
+  margin-top: 50%;
+  font-family: "Kanit", sans-serif;
+}
+.login .red-size p {
+  padding: 5px 30px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+@media only screen and (max-width: 1012px) {
+  .fa {
+    display: none;
+  }
+}
